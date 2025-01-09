@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>School Website</title>
+<link rel="stylesheet" a href="mainpage1.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<style>
+        .image-link {
+            display: inline-block; 
+            margin-left:50px;
+            transition: transform 0.2s ease; 
+        }
+        
+        .image-link img {
+            width: 300px;
+            height:300px;
+            border-radius: 10px; 
+        }
+
+        .image-link:hover {
+            transform: scale(1.05); 
+        }
+        .container-box{
+	background:#e6e6e6;
+	border:1px solid #f0eded;
+	padding:50px 10px;
+	border-radius:8px;
+	float:right;
+	margin-right:300px;
+	
+	
+}
+
+.container-box h4
+{
+	font-size:24px;
+	font-weight:600;
+	margin-bottom:8px;
+}
+.container-box p
+{
+	font-size:15px;
+	color:red;
+}
+.container-box:hover
+{
+	box-shadow:5px 30px 56.1276px rgb(55 55 55 / 12%);
+	border:1px solid transparent;
+	transform:translate(-3px);
+	
+}
+    </style>
+</head>
+<body>
+<div class="back"></div>
+<ul class="menu">
+<a href="#"><img class="logo" src="sandy1.png"></a>
+<li><a href="MainPage.html">Home</a></li>
+<li><a href="#about">About us</a></li>
+<li><div><a href="#rules">Rules</a></div></li>
+<li><a href="#">Academic <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+</svg> </a>
+<ul>
+<li><a href="#">Class Activity</a></li>
+<li><a href="#">Sports Activity</a></li>
+<li><a href="#">Achievements</a></li>
+</ul>
+</li>
+<li><a href="Gallery.html">Gallery</a></li>
+<li><a href="#contacts">Contact</a></li>
+</ul>
+<br><br><br><br><br><br>
+ <a href="admission.html" class="image-link">
+        <img src="admission1.jpg" alt="Go to Next Page">
+    </a>
+<div class="container-box">
+<h4>Departments we have:</h4>
+<p>Biology/maths</p>
+<p>Computer Science</p>
+<p>Accounts</p>
+<p>Pure Science</p>
+<p>Commerce</p></div>
+
+<section id="About_Us">
+<br>
+<br>
+<br>
+<h1 id="about"><center>About us</center></h1>
+<br>
+<div class="div_section1">
+<div class="icon"><center><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-house-check-fill" viewBox="0 0 16 16">
+  <path d="m100.808 1.5a1 1 0 0 0-1.414 12L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+  <path d="m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+  <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.707l.547.547 1.17-1.951a.5.5 0 1 1 .858.514"/>
+</svg></center></div>
+<h5 style="color:black; margin-left:25px;">Huge School Campus</h5>
+<p style="margin:5px">The diversification and expansion of the school through adoption of new and topically relevant courses has led to further enhancement of our infrastructure in order to fulfill our growing needs</p>
+</div>
+
+<div class="div_section1">
+<div class="icon"><center><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-easel2" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 0a.5.5 0 0 1 .447.276L8.81 1h4.69A1.5 1.5 0 0 1 15 2.5V11h.5a.5.5 0 0 1 0 1h-2.86l.845 3.379a.5.5 0 0 1-.97.242L12.11 14H3.89l-.405 1.621a.5.5 0 0 1-.97-.242L3.36 12H.5a.5.5 0 0 1 0-1H1V2.5A1.5 1.5 0 0 1 2.5 1h4.691l.362-.724A.5.5 0 0 1 8 0M2 11h12V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5zm9.61 1H4.39l-.25 1h7.72z"/>
+</svg></center></div>
+<h5 style="color:black; margin-left:25px;">Computer Education</h5>
+<p style="margin:5px">Computers have taken over a major  part of human activites and enabled people to have more leisure by reducing his work-load.Computer Education is started from the primary classes and is one of the optional subjects in the senior secondary classes.</p>
+</div>
+
+<div class="div_section1">
+<div class="icon"><center><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+  <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"/>
+  <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"/>
+  <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"/>
+</svg></center></div>
+<h5 style="color:black; margin-left:25px;">Music & Dance</h5>
+<p style="margin:5px">Training of vocal as well as instrumental music is provided according to the taste and interest of the students from Std.I to XII.'Indian classical' and 'Western dance' are taught in the school by experts to train,guide and help those students interested in this form of art.
+</div>
+
+<div class="div_section1">
+<div class="icon"><center><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-funnel" viewBox="0 0 16 16">
+  <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2z"/>
+</svg></center></div>
+<h5 style="color:black; margin-left:25px;">Science Laborartory</h5>
+<p style="margin:5px">Our school has a well equipped laboratory of Physics,Chemistry,Biology,Computer Science,Maths and Social Studies for the students to experiment and learn because learning by doing makes concert concept formation.</p>
+</div>
+</section>
+
+
+
+
+<section id="rules">
+<h1 id="rules"><center>Rules</center></h1>
+<div class="div_section2">
+<img src="girls.jpg" alt="ABC">
+<div class="icon1"><center><h5>DO'S <svg xmlns="http://www.w3.org/2000/svg" width="40" height="140" fill="currentColor" class="bi bi-check-square-fill" viewBox="0 0 16 16">
+  <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z"/>
+</svg></center></h5></div>
+<p class="para" style="background-color:#00ff00;border:2px solid grey;border-radius:20%">Girls must wear only chudies and kurti on Saturdays.</p>
+<p class="para" style="background-color:#00ff00;border:2px solid grey;border-radius:20%">Shawl is mandatory for color dresses.</p>
+
+<div class="icon1"><center><h5>DONT's<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-clipboard2-x-fill" viewBox="0 0 16 16">
+  <path d="M10 .5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V2a.5.5 0 0 0 .5.5h5A.5.5 0 0 0 11 2v-.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5"/>
+  <path d="M4.085 1H3.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1h-.585q.084.236.085.5V2a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 4 2v-.5q.001-.264.085-.5M8 8.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 9l1.147 1.146a.5.5 0 0 1-.708.708L8 9.707l-1.146 1.147a.5.5 0 0 1-.708-.708L7.293 9 6.146 7.854a.5.5 0 1 1 .708-.708z"/>
+</svg></h5></center></div>
+<p class="para" style="background-color:red;border:2px solid grey;border-radius:20%">Prohibited to wear leggins and jeans</p>
+<p class="para" style="background-color:red;border:2px solid grey;border-radius:20%">Prohibited to use cosmetics like jewels and makeups</p>
+<p class="para" style="background-color:red;border:2px solid grey;border-radius:20%">Not to wear flowers on regular days</p>
+</div>
+
+
+<div class="div_section2">
+<img src="boys.jpg" alt="ABC">
+<div class="icon1"><center><h5>DO'S <svg xmlns="http://www.w3.org/2000/svg" width="40" height="140" fill="currentColor" class="bi bi-check-square-fill" viewBox="0 0 16 16">
+  <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z"/>
+</svg></center></h5></div>
+<p class="para" style="background-color:#00ff00;border:2px solid grey;border-radius:20%">Boys can wear both formals and casuals on Saturdays</p>
+<p class="para" style="background-color:#00ff00;border:2px solid grey;border-radius:20%">Should enter the campus with neat hair cut</p>
+<div class="icon1"><center><h5>DONT's<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-clipboard2-x-fill" viewBox="0 0 16 16">
+  <path d="M10 .5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V2a.5.5 0 0 0 .5.5h5A.5.5 0 0 0 11 2v-.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5"/>
+  <path d="M4.085 1H3.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1h-.585q.084.236.085.5V2a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 4 2v-.5q.001-.264.085-.5M8 8.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 9l1.147 1.146a.5.5 0 0 1-.708.708L8 9.707l-1.146 1.147a.5.5 0 0 1-.708-.708L7.293 9 6.146 7.854a.5.5 0 1 1 .708-.708z"/>
+</svg></h5></center></div>
+<p class="para" style="background-color:red;border:2px solid grey;border-radius:20%">Prohibited to wear jeans on Saturdays</p>
+<p class="para" style="background-color:red;border:2px solid grey;border-radius:20%">Prohibited to different types of hair cut</p>
+<p class="para" style="background-color:red;border:2px solid grey;border-radius:20%">Should not use slippers on regular days</p>
+</div>
+
+<div class="div_section2">
+<img style="height:275px"src="boys and girls.jpg" alt="ABC">
+<div class="icon1"><center><h5>DO'S <svg xmlns="http://www.w3.org/2000/svg" width="40" height="140" fill="currentColor" class="bi bi-check-square-fill" viewBox="0 0 16 16">
+  <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z"/>
+</svg></center></h5></div>
+<p class="para" style="background-color:#ff8000;border:2px solid grey;border-radius:20%">All should wear Uniforms regularly.</p>
+<p class="para" style="background-color:#ff8000;border:2px solid grey;border-radius:20%">Id card is Mandatory.</p>
+<p class="para" style="background-color:#ff8000;border:2px solid grey;border-radius:20%">Everyone should follow the school dairy</p>
+<p class="para" style="background-color:#ff8000;border:2px solid grey;border-radius:20%">Students ought to follow discipline </p>
+<p class="para" style="background-color:#ff8000;border:2px solid grey;border-radius:20%">All should wear shoes on regular days.</p>
+</div>
+</section>
+
+<section id="footer">
+<div class="div_footer">
+<div class="div_footer1">
+<h2>About Us</h2><br><br><p style="color:white">Sandy Hr.Sec.School was eastablised in 2005 in Tamil Nadu We are working from 19 to 20 years with Positive Attitude.</p></div>
+<div class="div_footer1"><h2>About</h2><p style="color:white"><br><br>About School <br> Director Message<br> Prinicipal Message<br> Our Motto</div>
+<div class="div_footer1"><h2>Academics</h2><p style="color:white"><br><br>Admission Procedure<br>Lab Facilities<br>Sports Corner<br>Library<br>Dimensions of School<br>Transport Facility<br>Fee Details</div>
+<div class="div_footer1"><h2 id="contacts">Social links</h2><br><br>
+<div class="icon2"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg></div><br>
+<div class="icon2"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+</svg></div><br>
+<div class="icon2"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+</svg></div>
+</div>
+</div>
+</section>
+</body>
+</html>
