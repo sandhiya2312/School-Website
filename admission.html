@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <style>
+            h1{
+                text-align: center;
+            }
+            .button {
+                background-color:white;
+                border: none;
+                border-radius: 10px ;
+                color: black;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 10px;
+                cursor: pointer;
+                width: fit-content;
+              }
+        </style>
+    </head>
+    <body bgcolor="darkcyan">
+        <fieldset>
+            <legend><b></b></legend>
+            <img src="sandy1.png">
+           <marquee><h1>Admission!!! Welcome you all for Sandy.Hr.Sec.School!!</h1></marquee> 
+           <form>
+            Name:<input type="text">
+            D.O.B:<input type="text">
+            Age:<input type="text">
+            <p>Father's Name:<input type="text">    Mother's Name:<input type="text"></p>
+            Father's Occupation:<input type="text"><br><br>
+            Blood group:<input type="text"><br><br>
+            Mobile number1:<input type="text">
+            Mobile number2:<input type="text"><br>
+            <p>Gender: Female:<input type="radio" name="q"> Male:<input type="radio" name="q"><br><br>
+                Last year's Qualification:<input type="text"><br><br>
+             <script type="text/javascript">
+                    function ValidateDropdown() {
+            var result = document.getElementById('ddlEducation').value;
+            if (result == "0") {
+            alert("Please Select Education");
+            }
+            else {
+            alert("Fees for: " + result);
+            }
+            }
+            function myfunction()
+            {
+                alert('Successfully Submitted');
+            }
+            </script>
+            </head>
+            <body>
+            <form id="form1">
+            <div>
+            Wish to Join:
+            <select id="ddlEducation">
+            <option value="10,000">I</option>
+            <option value="14,000">II</option>
+            <option value="18,000">III</option>
+            <option value="23,000">IV</option>
+            <option value="28,000">V</option>
+            <option value="32,000">VI</option>
+            <option value="36,000">VII</option>
+            <option value="40,000">VIII</option>
+            <option value="45,000">IX</option>
+            <option value="52,000">X</option>
+            <option value="65,000">XI</option>
+            <option value="75,000">XII</option>
+            </select>
+            <input type="button" value="Fees" onclick="ValidateDropdown()"></script></div><br><br>
+            <label for="myfile">Attach TC</label>
+            <input type="file" id="myfile" name="myfile" multiple><br><br>
+            <button onclick="myfunction()">Submit</button><br><br>
+           <div class="button"> <a href="Fee.html">Pay Fee</a></div>
+           
+           </script>
+            
+            </form>
