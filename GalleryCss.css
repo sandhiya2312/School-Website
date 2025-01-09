@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+body{
+	background-color:darkcyan;
+}
+img
+{
+	float:left;
+	width:30%;
+	height:20%;
+	padding:20px;
+	border:2px solid black;
+	border-radius:20px;
+}
